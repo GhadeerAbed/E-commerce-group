@@ -1,0 +1,177 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+}
+.Products {
+  display: grid;
+  gap: 3rem 3.5rem;
+  margin: 64px 36.5px;
+}
+@media (min-width: 768px) {
+  .Products {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .filter-sidebar * {
+    font-size: 16px;
+    columns: 1;
+    position: sticky;
+    top: 3%;
+  }
+}
+
+.filter-sidebar {
+  font-size: 16px;
+  columns: 1;
+}
+.search,
+.company,
+.colors,
+.category,
+.price,
+.freeShipping {
+  margin-bottom: 1.25rem;
+}
+.colors {
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  padding: 0.5rem;
+  background: var(--clr-grey-10);
+  border-radius: var(--radius);
+  border-color: transparent;
+  letter-spacing: var(--spacing);
+}
+.filter-by {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  font-family: "Open Sans";
+  letter-spacing: 1.2px;
+}
+.category ul li,
+.color-selector {
+  display: block;
+  margin: 0.25em 0px;
+  padding: 0.25rem 0px;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--clr-grey-5);
+  cursor: pointer;
+  font-size: 14px;
+}
+.category ul li:hover,
+.color-selector:hover {
+  width: fit-content;
+  border-bottom: 1px solid var(--clr-grey-5);
+}
+.company select {
+  display: block;
+  background: var(--clr-grey-10);
+  border-radius: var(--radius);
+  border-color: transparent;
+  padding: 0.25rem;
+}
+.color {
+  border-radius: 50%;
+  margin-left: 10px;
+  color: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.color:hover {
+  opacity: 1;
+}
+.price-value {
+  color: var(--clr-grey-3);
+  font-size: 15px;
+}
+.freeShipping input {
+  margin-left: 2rem;
+}
+.freeShipping label {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.clearFilter button {
+  background: var(--clr-red-dark);
+  color: var(--clr-white);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  border-style: none;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.productListHeader {
+  display: grid;
+  margin-bottom: 32px;
+  grid-template-columns: 24% 50% 24%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .productListHeader {
+    font-size: 14px;
+  }
+  .viewSelector {
+    display: block;
+  }
+}
+
+.viewSelector {
+  /* columns: 2/4; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.sortSelector {
+  /* columns: 2/4; */
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sort-by {
+  margin-right: 10px;
+}
+.hr-responsive {
+  width: 96%;
+}
+.hr-responsive hr {
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: var(--clr-grey-1);
+}
+@media (max-width: 670px) {
+  .productListHeader {
+    gap: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .viewSelector {
+    display: block;
+  }
+  .hr-responsive hr {
+    width: 80vw;
+  }
+}
+.foundedAmount {
+  margin-left: 10px;
+  display: block;
+}
+.view svg {
+  margin-left: 5px;
+}
