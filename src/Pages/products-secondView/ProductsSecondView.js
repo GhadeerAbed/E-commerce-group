@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { BsFillGridFill } from "react-icons/bs";
 import "./Product.css";
 import ProductItem from "./ProductItem";
-function Products() {
+function ProductsSecondView() {
   return (
     <div className="Products">
       <section className="filter-sidebar">
@@ -97,4 +97,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default ProductsSecondView;
