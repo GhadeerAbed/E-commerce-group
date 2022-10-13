@@ -23,6 +23,7 @@ function Nav() {
         <div className="cart">
           Cart
           <IoCart />
+          <div className="cartCounter">0</div>
         </div>
         <div className="login">
           Login
