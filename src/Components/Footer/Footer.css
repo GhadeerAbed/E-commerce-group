@@ -1,0 +1,33 @@
+
+.foo span{
+color: #ab7a5f;
+}
+.foo{
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  padding: 20px;
+  margin-top: 500px;
+  font-size: 1.3rem;
+
+}
+/* @media (max-width:992px) {
+  .foo{
+    width: 500000px;
+  }
+  .foot{
+
+  }
+
+} */
+
+/* .foot{
+  display: inline-block;
+}
+
+@media (min-width:780px) { .foot{
+  width: 500000px;
+}
+
+} */
