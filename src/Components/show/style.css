@@ -1,0 +1,137 @@
+  .hero1{
+        width: 90%;
+        height:700px;
+        box-sizing: border-box;
+        margin-top: 100px;
+        margin-left: 5%;
+        font-family: sans-serif;
+        display: flex;
+        
+        }
+
+    
+    .showdescrip{
+    width: 45%;
+    height: 450px;
+    margin:auto;
+    }
+    
+    .head1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    }
+    
+    .btn1{
+    background-color: #ab7a5f; 
+    font-size: 16px;
+    color:#eaded7;
+    border-radius: 2px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:25px;
+    padding-right:25px;
+    border: #ab7a5f;
+    display: block;
+    }
+    
+    .btn1:hover{
+    background-color: #d1b6a8;
+    color: #000;
+    opacity: .5;
+    transition: 500ms;
+    }
+.img1{
+width: 400px;
+height:600px;
+border-radius:5px;
+margin-left:110px;
+position:absolute;
+z-index:1;
+
+} 
+
+.img2{
+width:290px;
+height:190px;
+border-radius:5px;
+margin-top: 410px;
+margin-left:-100px;
+position:absolute; 
+z-index:2;
+
+} 
+.img3{
+width:220px;
+height:500px;
+border-radius:5px;
+margin-top:100px;
+margin-left:60px;
+position:relative; 
+} 
+    
+/* //////////////////////////////////////////////////// */
+@media (min-width: 991px) {  
+    .pargrph{
+    width: 500px;
+    font-size: 1.25rem;
+    color: #617d98;
+    font-family: sans-serif;
+    line-height: 40px;
+    }
+.hero1{
+    width: 90%;
+    height:700px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 5%;
+    font-family: sans-serif;
+    display: flex;
+    
+    }
+.showimg{
+ width: 45%;
+ margin:auto;
+ display: flex;
+}
+
+}
+
+/* //////////////////////////////////////////////////// */
+
+@media (max-width: 844px) {
+
+.showdescrip{
+width: 100%;
+height: 450px;
+margin-left:0;
+}
+.pargrph{
+font-size: 1.25rem;
+color: #617d98;
+font-family: sans-serif;
+line-height: 40px;
+}
+
+.showimg {
+display:none;
+}
+}
+
+/* //////////////////////////////////////////////////// */
+@media (min-width: 844px)and (max-width: 991px){
+.showimg {
+display:none;
+}
+.showdescrip{
+width: 100%;
+height: 450px;
+margin-left:0;
+}
+.pargrph{
+font-size: 1.25rem;
+color: #617d98;
+font-family: sans-serif;
+line-height: 40px;
+}
+            
+}
