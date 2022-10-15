@@ -7,21 +7,20 @@ import "../../Pages/Product/Products.css";
 const Gallery = () => {
   return (
     <>
-      <div className='first-line'>
-
+      <div className="first-line">
         <div className="row-column">
-
-          <a href="#1"><BsFillGridFill></BsFillGridFill></a>
-          <a href="#1" className="grid-icon"><MdTableRows></MdTableRows></a>
+          <a href="#1">
+            <BsFillGridFill></BsFillGridFill>
+          </a>
+          <a href="#1" className="grid-icon">
+            <MdTableRows></MdTableRows>
+          </a>
           <p>23 product found</p>
-
         </div>
 
         <div className="line"></div>
 
-      
-        <div className='sort'>
-
+        <div className="sort">
           <label>Sort By</label>
           <select>
             <option>Price(Lowast)</option>
@@ -29,10 +28,8 @@ const Gallery = () => {
             <option>name(A-Z)</option>
             <option>name(Z-A)</option>
           </select>
-
         </div>
-
-      </div>  
+      </div>
 
       <div className="images">
         <Image></Image>
@@ -53,7 +50,6 @@ const Gallery = () => {
         <Image></Image>
         <Image></Image>
         <Image></Image>
-
       </div>
     </>
   );

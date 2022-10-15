@@ -15,24 +15,24 @@ function App() {
   return (
     <div className="App">
       {/* <ProductsSecondView /> */}
-       {/* <Products></Products>    */}
+      {/* <Products></Products>    */}
       {/* <Detail/> */}
       {/* <Test1></Test1>    //css had changed and unformatted */}
       {/* <Checkout></Checkout> */}
-          {/* <About ></About> */}
-         {/* //css had changed and unformatted */}
-        {/* <Featured></Featured>  //there is a big error data.json is missed */}
+      {/* <About ></About> */}
+      {/* //css had changed and unformatted */}
+      {/* <Featured></Featured>  //there is a big error data.json is missed */}
       {/* <Show></Show> */}
       {/* <Home></Home> //css had changed and unformatted  */}
-      {/* /****************************************************************** */ }
+      {/* /****************************************************************** */}
       {/* <Nav></Nav> 
       <HeaderNav ></HeaderNav>    */}
       {/* <Footer></Footer>    
       just Those components should be in the app 
       betwee them will change only 
       */}
-  
-       {/* <Detail /> */}
+
+      {/* <Detail /> */}
     </div>
   );
 }
