@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Pages/Products.css'
+import '../../Pages/Product/Products.css'
 const Image = () => {
   return (
     <div className='image'>

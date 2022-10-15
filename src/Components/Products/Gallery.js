@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillGridFill } from "react-icons/bs";
 import { MdTableRows } from "react-icons/md";
 import Image from "../Products/Image.js";
-import "../../Pages/Products.css";
+import "../../Pages/Product/Products.css";
 
 const Gallery = () => {
   return (

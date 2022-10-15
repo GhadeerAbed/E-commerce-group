@@ -1,6 +1,6 @@
 import React from "react";
-import "../Pages/Products.css";
-import Gallery from "../Components/Products/Gallery.js";
+import "../Product/Products.css";
+import Gallery from "../../Components/Products/Gallery.js";
 const Products = () => {
   return (
     

@@ -1,9 +1,9 @@
 import React from 'react'
-import im from "../../assest/im.jpg";
+import im from "../../image/img1.jpeg";
 import { FaTrash } from "react-icons/fa";
 import './Test1.css'
-import Footer from '../Footer/Footer';
-import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer.js';
+import Nav from '../HeaderNav/HeaderNav.js';
 const Test1 = () => {
     return (
         <>
@@ -16,7 +16,7 @@ const Test1 = () => {
           </div>
           <hr className="line" />
           <div className="detailShop">
-            <img src={im} alt="" className="picture" />
+            <img src={im} alt="" className="picture" /> 
     
             <h5 className="Modern">
               modern poster <br />
