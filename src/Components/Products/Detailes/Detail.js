@@ -1,5 +1,6 @@
 import React from "react";
-import "../../../Pages/./Products.css";
+// import "../../../Pages/./Products.css";
+import "../../../Pages/Product/Products.css"
 import {AiFillStar} from 'react-icons/ai'
 import {BsCheckCircleFill} from 'react-icons/bs'
 const Detail = () => {
@@ -34,7 +35,13 @@ const Detail = () => {
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar>
-            <AiFillStar></AiFillStar>
+            <AiFillStar></AiFillStar> 
+
+            {/* {[...Array(5).map(() => {
+              return  <AiFillStar/>
+            })]} 
+            this solution may be better
+            */}
 
             <span> (100 customer reviews) </span>
 
