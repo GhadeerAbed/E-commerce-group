@@ -11,11 +11,12 @@ import "./App.css";
 //import Nav from './Components/NavBar/Nav.js'
 // import Show from './Components/show/index.js'
 //import Home from './Components/Home/Home.js';
+//import Detail  from './Components/Products/Detailes/Detail.js'
 function App() {
   return (
     <div className="App">
       {/* <ProductsSecondView /> */}
-        {/* <Products></Products>    */}
+      {/* <Products></Products>    */}
       {/* <Detail/> */}
       {/* <About ></About>  //css had changed and unformatted*/}
       {/* <Test1></Test1>    //css had changed and unformatted */}
@@ -26,6 +27,7 @@ function App() {
       {/* <Nav></Nav> */}
       {/* <Show></Show> */}
       {/* <Home></Home> //css had changed and unformatted  */}
+      {/* <Detail ></Detail> */}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Pages/./Products.css";
+import "../../../Pages/Product/Products.css";
 import {AiFillStar} from 'react-icons/ai'
 import {BsCheckCircleFill} from 'react-icons/bs'
 const Detail = () => {
