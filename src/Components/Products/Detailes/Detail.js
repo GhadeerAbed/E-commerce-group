@@ -37,9 +37,9 @@ const Detail = () => {
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar> 
 
-            {/* {[...Array(5).map(() => {
+            {/* {[...Array(5)].map(() => {
               return  <AiFillStar/>
-            })]} 
+            })} 
             this solution may be better
             */}
 
