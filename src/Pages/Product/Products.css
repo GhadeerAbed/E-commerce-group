@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --clr-primary-1: #453227;
   --clr-primary-2: #5f4435;
   --clr-primary-3: #795744;
@@ -36,9 +36,8 @@
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  /**--max-width: 1170px;
-    --fixed-width: 620px;**/
-}
+  
+} */
 
 .container {
   margin-top: 100px;
