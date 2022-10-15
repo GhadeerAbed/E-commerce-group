@@ -8,7 +8,7 @@ const Test1 = () => {
     return (
         <>
         <Nav name='Cart'/>
-          <div className="container">
+          <div className="items">
             <h5>item</h5>
             <h5>price</h5>
             <h5>quantity</h5>
@@ -21,7 +21,6 @@ const Test1 = () => {
             <h5 className="Modern">
               modern poster <br />
            <p className="col">color :  <button className="color"></button></p>  
-             
             </h5>
             <h5 className="pric1">$30.99</h5>
         <span className='count'> - 1 +</span>
@@ -55,4 +54,4 @@ const Test1 = () => {
       );
 }
 
-export default Test1
+export default Test1;
