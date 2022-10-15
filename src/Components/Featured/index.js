@@ -1,9 +1,9 @@
-//import React,{useState} from "react";
-//import data from "../../data/data.json";
+import React from "react";
+import data from "../../data/data.json";
 import "././style.css";
-//import {AiOutlineSearch } from "react-icons/ai";
+import {AiOutlineSearch } from "react-icons/ai";
 function Featured(){
-//const [datas,setDatas]=useState(data);
+// const [datas,setDatas]=useState(data);
 
 // useEffect(()=>{
 //    const response= fetch('https://fakestoreapi.com/products?limit=3')
@@ -19,7 +19,7 @@ return(
 <h2 className="addres">Featured Products</h2>
 <div className="line"></div>
 
-{/* { data.map((item)=>{
+{ data.map((item)=>{
     return(
         <div className="per">
         <div className="container" key={item.id}>
@@ -35,7 +35,7 @@ return(
         </div>
         </div>
     )})
-} */}
+}
 
 <button className="btn2">ALL PRODUCTS</button>
 </div>

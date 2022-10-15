@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../../../Pages/Product/Products.css";
 import { AiFillStar } from "react-icons/ai";
 import { BsCheckCircleFill } from "react-icons/bs";
