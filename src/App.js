@@ -10,20 +10,20 @@ import React from 'react'
 // import HeaderNav  from './Components/HeaderNav/HeaderNav.js'
 // import Nav from './Components/NavBar/Nav.js'
 // import Show from './Components/show/index.js'
-// import Home from './Components/Home/Home.js';
+ import Home from './Components/Home/Home.js';
 const App = () => {
   return (
     <>
       {/* <ProductsSecondView /> */}
         {/* <Products></Products>    */}
         {/* <Detail/> */}
-        {/*  */}
+        {/*   <Test1></Test1> */}
         {/* <Checkout></Checkout> */}
         {/* <About ></About> */}
         {/* <Featured></Featured>  */}
         {/* <Show></Show> */}
-        {/* <Home></Home>  */}
-        <Test1></Test1> 
+        {/*   */}
+        <Home></Home>
          {/* <Nav></Nav>  
          <HeaderNav ></HeaderNav>     
          <Footer></Footer>  */}

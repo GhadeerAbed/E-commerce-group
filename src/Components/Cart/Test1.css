@@ -271,10 +271,10 @@ FiTrash{
   }
   .check{
     position: absolute;
-    top: 950px;
+    top: 1000px;
     bottom: 0;
     right:98px;
-    width: 389px;
+    width: 485px;
    height: 35px;
     text-align: center;
     font-weight: 700;
