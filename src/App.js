@@ -1,4 +1,4 @@
-import "./App.css";
+import React from 'react'
 // import Detail from "./Components/Products/Detailes/Detail";
 // import Products from "./Pages/Product/Products.js";
 // import ProductsSecondView from "./Pages/products-secondView/ProductsSecondView";
@@ -11,11 +11,10 @@ import "./App.css";
 // import Nav from './Components/NavBar/Nav.js'
 // import Show from './Components/show/index.js'
 // import Home from './Components/Home/Home.js';
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <>
-        {/* <ProductsSecondView /> */}
+    <>
+      {/* <ProductsSecondView /> */}
         {/* <Products></Products>    */}
         {/* <Detail/> */}
         {/* <Test1></Test1>  */}
@@ -24,12 +23,12 @@ function App() {
         {/* <Featured></Featured>  */}
         {/* <Show></Show> */}
         {/* <Home></Home>  */}
-        
-         {/* <Nav></Nav>  
-         <HeaderNav ></HeaderNav>     
-         <Footer></Footer>  */}
+
+        {/* <Nav></Nav>  */}
+        {/* <HeaderNav ></HeaderNav>     */}
+        {/* <Footer></Footer> */}
       </>
-    </div>
+ 
   );
 }
 

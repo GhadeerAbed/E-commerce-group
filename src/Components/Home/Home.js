@@ -40,9 +40,9 @@ adipisicing elit. Voluptates, ea. Perferendis
 <article className="card">
 <div className='img'><span><MdOutlineHistoryEdu/></span></div>
 <h4>History</h4>
-<p>Lorem ipsum, dolor sit amet consectetur 
+<p >Lorem ipsum, dolor sit amet consectetur
 adipisicing elit. Voluptates, ea. Perferendis
- corrupti reiciendis nesciunt rerum velit
+corrupti reiciendis nesciunt rerum velit
   autem unde numquam nisi</p>
  </article>
 

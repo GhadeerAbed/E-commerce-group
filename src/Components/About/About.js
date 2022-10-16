@@ -2,11 +2,12 @@ import React from "react";
 import img from "../../image/img1.jpeg";
 import "./About.css";
 import Footer from "../Footer/Footer.js";
-import Nav from "../NavBar/Nav.js";
+import HeaderNav from "../HeaderNav/HeaderNav.js";
+
 const About = () => {
   return (
     <>
-      <Nav name="About" />
+      <HeaderNav name="About" />
 
       <div className="about-container">
         <div className="colui">

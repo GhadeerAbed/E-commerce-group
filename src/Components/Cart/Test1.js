@@ -8,30 +8,42 @@ const Test1 = () => {
     return (
         <>
         <Nav name='Cart'/>
-          <div className="container">
+          <div className="items">
             <h5>item</h5>
             <h5>price</h5>
             <h5>quantity</h5>
             <h5>subtotal</h5>
           </div>
           <hr className="line" />
-          <div className="detailShop">
-            <img src={im} alt="" className="picture" /> 
-    
-            <h5 className="Modern">
+          <article>
+       
+            <div className="cart_box" >
+              <div className="cart_img">
+              <img src={im} alt="" className="picture" /> 
+              <h5 className="Modern">
               modern poster <br />
-           <p className="col">color :  <button className="color"></button></p>  
-             
+           <p className="col">color : <button className="color"></button></p>  
             </h5>
+              </div>
+              <div>
             <h5 className="pric1">$30.99</h5>
-        <span className='count'> - 1 +</span>
-  
-            
-            <h5 className="pric2">$30.99</h5>
-            <button className="trash">
-              <FaTrash />
-            </button>
-          </div>
+              </div>
+              <div className='count'>
+                <span >+</span>
+                <span>1</span>
+                <span >-</span>
+              </div>
+              <div>
+              <h5 className="pric2">$30.99</h5>
+                </div>
+              <div>
+            <button className="trash"> <FaTrash /> </button>
+              </div>
+            </div>
+        </article>
+
+
+   
           <hr className="line1" />
           <div className="btn1">
             <button className="btn2">Continue Shopping</button>
@@ -55,4 +67,4 @@ const Test1 = () => {
       );
 }
 
-export default Test1
+export default Test1;

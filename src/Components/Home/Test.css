@@ -60,10 +60,10 @@
   color: #453227;
   text-transform:capitalize;
   margin-bottom: 2rem;
-  letter-spacing:1px;
   font-weight: bold;  
-  font-size: 30px; 
-  margin-left: 70px;
+  font-size: 25px; 
+  margin-left: 170px;
+  margin-top: 60px;
 }
 .cards {
   display: flex;
@@ -72,8 +72,8 @@
   gap: 15px;
 }
 .card {
-width: 250px;
-height: 200px;
+width: 330px;
+height: 290px;
 position: relative;
 background-color: #c5a491;
   border: 1px solid #c5a491;
@@ -84,15 +84,16 @@ justify-content: center;
 align-items: center;
 border-radius: 4px;
 padding: 40px;
-margin-top: -200px;
+margin-top: -220px;
 padding-left: 50px;
 margin-left: 20px;
 }
 .card p{
   color: #5f4435;
-  font-size: 13px;
-  line-height: 1.8; 
-  margin-top: -20px; 
+  /* font-size: 14px; */
+   line-height: 1.8;  
+margin-top: 5px;
+font-size: 12px;
 }
 
 .card .img{
@@ -101,14 +102,18 @@ margin-left: 20px;
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 10px;
   justify-content: center;
+  margin-left: -15px;
+  padding-top: 10px;
 }
 .card .img span{
   font-size: 2rem;
   color: #5f4435;
+  margin: auto;
   margin-left: 10px;
-  margin-top: 20px;
+  /* margin-left: 7px;
+  padding-top: 20px; */
 }
 .card  h4{
   color:#453227 ;
@@ -116,17 +121,24 @@ margin-left: 20px;
 font-weight: bold;
 text-transform: capitalize; 
 margin-top: 10px;
+margin-left: -20px;
+
+}
+.card .img .comp{
+font-size:1.5rem ;
+margin-left:12px ;
+text-align: center;
 }
 
-/* .card.img .comp{
-font-size: 2rem;
+ /* .card.img .comp{
+font-size: 1.5rem;
 color: #5f4435;
 text-align: center;
 align-items: center;
 position: absolute;
 margin-top: 10px;
 margin-left: -14px;
-}   */
+}    */
 
 .newsletter{
   display: flex;
@@ -143,28 +155,32 @@ margin-left: -14px;
   font-size:28px;
   color: #102a42;
   margin-left: 120px;
+   margin-top:100px;
 }
 .newsletter .finalText p{
   color: #617db3;
   line-height: 2;
   font-size: 14px;
   margin-left: 120px;
+  margin-top:40px;
+ 
 }
 .newsletter .finalText  form{
   margin-top: 170px;
 }
 .newsletter .finalText input{
   width: 400px;
-  height: 30px; 
-  border: 1px solid #000;
+  height: 40px; 
+
   position: relative;
 text-align: left;
 font-size: 1rem;
 margin-left: -10px;
 border-radius: 5px;
+border: .5px solid rgb(65, 65, 65) ;
 }
 .btn{
-  height: 34px; 
+  height: 40px; 
   width: 110px;
   position: absolute;
   margin-left: -30px;
