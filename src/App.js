@@ -24,10 +24,10 @@ function App() {
         {/* <Featured></Featured>  */}
         {/* <Show></Show> */}
         {/* <Home></Home>  */}
-
-        {/* <Nav></Nav>  */}
-        {/* <HeaderNav ></HeaderNav>     */}
-        {/* <Footer></Footer> */}
+        
+         {/* <Nav></Nav>  
+         <HeaderNav ></HeaderNav>     
+         <Footer></Footer>  */}
       </>
     </div>
   );
