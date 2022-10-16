@@ -101,7 +101,7 @@
   }
 .pric1{
     margin-left: 150px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 18px;
 }
 
@@ -136,8 +136,8 @@
     cursor: pointer;
   }
   .pric2{
-    margin-left: 200px;
-    margin-top: 30px;
+    margin-left: 230px;
+    margin-top: 50px;
     font-size: 18px;
   }
   .cart_box div:nth-child(3) button {
@@ -271,10 +271,10 @@ FiTrash{
   }
   .check{
     position: absolute;
-    top: 950px;
+    top: 1000px;
     bottom: 0;
     right:98px;
-    width: 389px;
+    width: 485px;
    height: 35px;
     text-align: center;
     font-weight: 700;
