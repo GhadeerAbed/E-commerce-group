@@ -3,14 +3,14 @@ import React from 'react'
 // import Products from "./Pages/Product/Products.js";
 // import ProductsSecondView from "./Pages/products-secondView/ProductsSecondView";
 // import  About  from '../src/Components/About/About.js'
- import Test1 from '../src/Components/Cart/Test1.js'
+//  import Test1 from '../src/Components/Cart/Test1.js'
 // import Checkout from './Components/checkout/Checkout.js'
 //import Featured from './Components/Featured/index.js'
 // import Footer from './Components/Footer/Footer.js'
 // import HeaderNav  from './Components/HeaderNav/HeaderNav.js'
 // import Nav from './Components/NavBar/Nav.js'
 // import Show from './Components/show/index.js'
- import Home from './Components/Home/Home.js';
+//  import Home from './Components/Home/Home.js';
 const App = () => {
   return (
     <>
@@ -22,8 +22,8 @@ const App = () => {
         {/* <About ></About> */}
         {/* <Featured></Featured>  */}
         {/* <Show></Show> */}
-        {/*   */}
-        <Home></Home>
+        {/*  <Home></Home>  */}
+       
          {/* <Nav></Nav>  
          <HeaderNav ></HeaderNav>     
          <Footer></Footer>  */}
