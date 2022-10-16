@@ -3,7 +3,7 @@ import React from 'react'
 // import Products from "./Pages/Product/Products.js";
 // import ProductsSecondView from "./Pages/products-secondView/ProductsSecondView";
 // import  About  from '../src/Components/About/About.js'
-// import Test1 from '../src/Components/Cart/Test1.js'
+ import Test1 from '../src/Components/Cart/Test1.js'
 // import Checkout from './Components/checkout/Checkout.js'
 //import Featured from './Components/Featured/index.js'
 // import Footer from './Components/Footer/Footer.js'
@@ -17,13 +17,13 @@ const App = () => {
       {/* <ProductsSecondView /> */}
         {/* <Products></Products>    */}
         {/* <Detail/> */}
-        {/* <Test1></Test1>  */}
+        {/*  */}
         {/* <Checkout></Checkout> */}
         {/* <About ></About> */}
         {/* <Featured></Featured>  */}
         {/* <Show></Show> */}
         {/* <Home></Home>  */}
-        
+        <Test1></Test1> 
          {/* <Nav></Nav>  
          <HeaderNav ></HeaderNav>     
          <Footer></Footer>  */}
