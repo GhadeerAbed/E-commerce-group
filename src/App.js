@@ -1,3 +1,4 @@
+
 import React from 'react'
 // import Detail from "./Components/Products/Detailes/Detail";
 // import Products from "./Pages/Product/Products.js";
@@ -11,10 +12,13 @@ import React from 'react'
 // import Nav from './Components/NavBar/Nav.js'
 // import Show from './Components/show/index.js'
 //  import Home from './Components/Home/Home.js';
+
 const App = () => {
   return (
-    <>
-      {/* <ProductsSecondView /> */}
+  <>
+  
+  
+    {/* <ProductsSecondView /> */}
         {/* <Products></Products>    */}
         {/* <Detail/> */}
         {/*   <Test1></Test1> */}
@@ -27,9 +31,9 @@ const App = () => {
          {/* <Nav></Nav>  
          <HeaderNav ></HeaderNav>     
          <Footer></Footer>  */}
-    
-    </>
+  </>
   )
 }
 
 export default App;
+
