@@ -183,57 +183,7 @@ FiTrash{
  
 }
   
-/* .detailShop{
-    justify-content: space-between;
-  margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
 
-}
-.Modern{
-    max-width: 80%;
-    margin-left: 20px;
-    font-size: 0.75rem;
-    
-margin-top: 20px;
-}
-    
-    .col{
-    font-size:12px;
-  
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: flex-start;
-        font-size: 12px;
-       
-        margin-left: 10px;
-        margin-top: 10px;
-    }
- 
-    .pric1{
-        color:#ab7a5f; 
-      
-        margin-left: 100px;
-        margin-top: 20px;
-     }
-     
-.count{
-    font-size: 20px;
-    font-weight: bold;
-margin-left: 30px;
-margin-top: 20px;
-padding-left: 100px;
-
-}
-.pric2{
-    color: #617d98;
-    font-size: 18px;
-    margin-left: 300px;
-    margin-top: 20px;
-}
-
- */
 .line1{
     max-width: 82%;
     margin: auto;

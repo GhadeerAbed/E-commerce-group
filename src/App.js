@@ -1,5 +1,4 @@
 import "./App.css";
-//import Detail from "./Components/Products/Detailes/Detail";
 //import Products from "./Pages/Product/Products.js";
 //import ProductsSecondView from "./Pages/products-secondView/ProductsSecondView";
 // import  About  from '../src/Components/About/About.js'
@@ -11,16 +10,16 @@ import "./App.css";
 //import Nav from './Components/NavBar/Nav.js'
 // import Show from './Components/show/index.js'
 //  import Home from './Components/Home/Home.js';
-//import Detail  from './Components/Products/Detailes/Detail.js'
+// import Detail  from './Components/Products/Detailes/Detail.js'
 function App() {
   return (
     <div className="App">
       {/* <ProductsSecondView /> */}
       {/* <Products></Products>    */}
-      {/* <Detail/> */}
-      {/*  <About/>   <Test1/> */}
+      {/*   <Detail/>*/}
+      {/*  <About/>   */}
+     {/*   <Test1/>*/}
        {/* <Home /> */}
-     
       {/* <Checkout></Checkout> */}
       {/* <Featured></Featured>  //there is a big error data.json is missed */} 
       {/* <Footer></Footer>      */}
@@ -28,7 +27,6 @@ function App() {
       {/* <Nav></Nav> */}
       {/* <Show></Show> */}
     
-      {/* <Detail ></Detail> */}
     </div>
   );
 }
