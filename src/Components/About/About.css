@@ -88,6 +88,7 @@ body {font-size:1.2rem;}
   margin-left: 90px;
   border-radius: 5px;
   margin-right: 10px;
+  margin-top: -15px;
 }
 
 .colui h2{
@@ -98,7 +99,8 @@ body {font-size:1.2rem;}
   font-size: 2rem;
   font-weight: bold;
   width:  50%;
-  margin-left: 30px;
+  margin-left: 90px;
+  margin-top: -5px;
  }
  .colui p{
   flex-direction: column;
@@ -107,11 +109,12 @@ body {font-size:1.2rem;}
   line-height: 2rem;
   max-width: 100%;
   font-size: 14px;
-  margin-left: 30px;
+  margin-left: 90px;
     } 
     .colui .underLine{
       width: 90px;
       height: 4px;
       background-color: #ab7a5f;
-      margin-left: 30px;
+      margin-left: 90px;
+      margin-top: 30px;
     }  
